@@ -45,6 +45,8 @@ func main() {
 			s = &spider.CloudSpider{}
 		} else if p == "ss" {
 			s = &spider.SsSpider{}
+		} else if p == "pl" {
+			s = &spider.PlSpider{}
 		} else {
 			flag.Usage()
 			return
